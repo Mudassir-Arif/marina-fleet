@@ -1,0 +1,42 @@
+    #pricing-cards{
+        margin-top: 30px;
+    }
+#pricing-cards .text{
+    color: black;
+    /* text-shadow: 1px 1px 1px black; */
+    border-bottom: 2px solid black;
+    border-radius: 10px;
+}
+#pricing-cards.card h3{
+    font-size: 25px;
+    color: black;
+    }
+#pricing-cards .card p{
+    font-size: 15px;
+    margin-top: 5px;
+    color: black;
+}
+
+#pricing-cards .card span{
+     float: right;
+     color: black;
+     cursor: pointer;    
+    }
+.btn{
+    background-color: rgb(69, 143, 205);
+    color: white;
+    border-radius: 10px;
+}
+
+.btn:hover{
+    background-color:#f3e54c;
+    color: black;
+}
+
+
+@media(max-width:992px){
+    #gal-3{
+        margin: auto;
+        margin-top: 20px;
+    }
+}

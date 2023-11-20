@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./contact.css">
+
+    <!-- Font Awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Contact Us</title>
+    <style>
+      .error{
+        color: red;
+      }
+    </style>
+</head>
+<body>
+    <!-- Start Navbar -->
+    <nav class="navbar navbar-expand-lg sticky-top navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="./img/logo img.png" alt="logo" height="60px"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" href="./index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="./gallery.html">Gallery</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Products
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="./luxury.html">Luxury</a></li>
+                  <li><a class="dropdown-item" href="./sailing.html">Salling</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="./fishing.html">Fishing</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="./about.html">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="./contact.html">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- Navbar End -->
+
+  <!-- contact us -->
+  <div class="contactus">
+    <div class="title">
+        <h2>Contact Us</h2>
+    </div>
+    <div class="box">
+        <!-- form box -->
+        <div class="contact form">
+            <h3>Send a Message</h3>
+            <form id="myform">
+                <div class="formbox">
+                    <div class="row50">
+                        <div class="inputbox">
+                            <span>First Name</span>
+                            <input name="name" type="text" placeholder="Write your Name" >
+                        </div>
+                        <div class="inputbox">
+                            <span>Last Name</span>
+                            <input name="lname" type="text" placeholder="Write your Last Name" >
+                        </div>
+                    </div>
+                    <div class="row50">
+                        <div class="inputbox">
+                            <span>Email</span>
+                            <input name="email" type="text" placeholder="Write your Email" >
+                        </div>
+                        <div class="inputbox">
+                            <span>Mobile</span>
+                            <input name="number" type="text" placeholder="Write your Number" >
+                        </div>
+                    </div>
+                    <div class="row100">
+                        <div class="inputbox">
+                            <span>Message</span>
+                           <textarea  placeholder="Write your Message here..."></textarea>
+                        </div>
+                    </div>
+                    <div class="row100">
+                        <div class="inputbox">
+                             <input type="submit" value="Send">
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <!-- info box -->
+        <div class="contact info">
+            <h3>Contact Info</h3>
+            <div class="infoBox">
+                <div>
+                    <span style="width: 40px;"><ion-icon name="location"></ion-icon></span>
+                    <p>Aptech Computer Education Garden Center, Garden East Saddar Town, Karachi <br>PAKISTAN</p>
+                </div>
+                <div>
+                    <span style="width: 40px;"><ion-icon name="mail"></ion-icon></span>
+                    <a href="mailto:muzammil2306b@aptechgdn.net">info@aptechgdn.net</a>
+                </div>
+                <div>
+                    <span style="width: 40px;"><ion-icon name="call"></ion-icon></span>
+                    <a href="tel:+92 324-2905280">+92 5589 55488 5</a>
+                </div>
+                <!-- Socail media Link -->
+                <ul class="sci">
+                    <li><a href="https://web.facebook.com/muzammil.anwer.792" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a></li>
+                    <li><a href="https://twitter.com/muzammilmanwer" target="_blank"><ion-icon name="logo-twitter"></ion-icon></a></li>
+                    <li><a href=""><ion-icon name="logo-linkedin"></ion-icon></a></li>
+                    <li><a href="https://www.instagram.com/itzz_muzzi_/" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- map box -->
+        <div class="contact map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3619.902486747932!2d67.02166607403092!3d24.867179844991213!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33e6b1566c46f%3A0x65318f4eb62c7aa8!2sAptech%20Computer%20Education%20Garden%20Center!5e0!3m2!1sen!2s!4v1696557083172!5m2!1sen!2s"style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+  </div>
+
+        <!-- Footer Start -->
+        <div class="bg-primary" style="background-color: #222222">
+          <div class="container">
+            <footer class="py-5">
+              <div class="row">
+                <div class="col text-light">
+                  <h2>Marina-Fleet</h2>
+                  <p>The Pakistan Fleet Marine Forces (FMF) are combined general and special purpose forces within the
+                    Pakistan Department of the Navy that perform offensive amphibious or expeditionary warfare and defensive
+                    maritime employment.</p>
+                </div>
+                <div class="col">
+                  <ul class="nav flex-column align-items-center sm-align-items-center">
+                    <li class="nav-item mb-2">
+                      <a href="./index.html" class="nav-link p-0 text-light">Home</a>
+                    </li>
+                    <li class="nav-item mb-2">
+                      <a href="./gallery.html" class="nav-link p-0 text-light">Gallery</a>
+                    </li>
+                    <li class="nav-item mb-2">
+                      <a href="./about.html" class="nav-link p-0 text-light">About Us</a>
+                    </li>
+                    <li class="nav-item mb-2">
+                      <a href="./contact.html" class="nav-link p-0 text-light">Contact</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="col d-none d-sm-none d-lg-block">
+                  <h5 class="text-light">Subscribe for Best Quality</h5>
+                  <p class="text-light">Get Special Discount & Get Healthy</p>
+                  <div class="d-flex w-100 gap-2">
+                    <label for="newsletter1" class="visually-hidden">Email address</label>
+                    <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+                    <button class="btn text-dark bg-light" type="button">Subscribe</button>
+                  </div>
+                </div>
+      
+                <div class="d-flex text-light justify-content-between py-4 my-4 border-top">
+                  <p>© 2023 Marina-Fleet, Inc. All rights reserved.</p>
+                  <ul class="list-unstyled d-flex">
+                    <li class="ms-3">
+                      <a class="link" href="#"><i style="font-size: 20px" class="fa-brands text-light fa-instagram"></i></a>
+                    </li>
+                    <li class="ms-3">
+                      <a class="link" href="#"><i style="font-size: 20px" class="fa-brands text-light fa-facebook"></i></a>
+                    </li>
+                    <li class="ms-3">
+                      <a class="link" href="#"><i style="font-size: 20px" class="fa-brands text-light fa-whatsapp"></i></a>
+                    </li>
+                    <p class="float-end "><a class="fa-solid fa-arrow-up text-light" href=""
+                        style="margin-left: 20px;font-size: 20px;"></a></p>
+                  </ul>
+                </div>
+            </footer>
+          </div>
+        </div>
+    <!-- Footer End  -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+    
+    <script
+  src="https://code.jquery.com/jquery-3.7.1.js"
+  integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+  crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.20.0/jquery.validate.min.js" integrity="sha512-WMEKGZ7L5LWgaPeJtw9MBM4i5w5OSBlSjTjCtSnvFJGSVD26gE5+Td12qN5pvWXhuWaWcVwF++F7aqu9cvqP0A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script>
+      jQuery('#myform').validate({
+        rules : {
+          name :{
+            required : true,
+            minlength : 3,
+          } ,
+          lname:{
+            required : true,
+            minlength:3,
+          },
+          email:{
+            required : true,
+            email : true
+          },
+          number:{
+            required : true,
+            number : true          
+          }
+        },
+        
+        messages : {
+          name :{
+            required :"Name must be required",
+            minlength : "Name must be 5 characters or more"
+          } ,
+          lname :{
+            required :"Last Name must be required",
+            minlength : "Last Name must be 5 characters or more"
+          } ,
+          email:{
+            required : "Email must be required",
+            email : "Please Enter a valid email"
+          },
+          number:{
+            required : "Number must be required",
+            number : "Please enter a valid number"  
+        }
+      }
+      })
+    </script>
+</body>
+</html>
